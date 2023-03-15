@@ -21,6 +21,8 @@ public class Soru_cozumuReplace {
         double inp2 = Double.parseDouble(input2);
         System.out.println((inp1+inp2) + " €");
 
+        System.out.println(" seni githup'a gonderecegim");
+
 
     }
 }
