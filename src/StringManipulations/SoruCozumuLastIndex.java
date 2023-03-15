@@ -1,4 +1,4 @@
-package ArraySorulari;
+package StringManipulations;
 
 public class SoruCozumuLastIndex {
     public static void main(String[] args) {

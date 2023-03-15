@@ -17,6 +17,8 @@ public class forLoop_faktoryel {
         }
         System.out.print(sayi+"! =" + faktoriyel);
 
+        System.out.println("kolay oldu");
+
 
 
 
