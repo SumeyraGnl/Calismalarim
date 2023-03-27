@@ -6,6 +6,8 @@ public class WhileLoop_rakamToplam {
 
     public static void main(String[] args) {
 
+        // While loop kullanarak kullanicidan alinan sayinin rakamlar toplamini bulun
+
         Scanner scan=new Scanner(System.in);
         System.out.println("Rakamlari toplanacak bir tamsayi giriniz");
         int girilenSayi= scan.nextInt();

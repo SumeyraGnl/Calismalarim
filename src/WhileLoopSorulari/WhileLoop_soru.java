@@ -1,6 +1,6 @@
 package WhileLoopSorulari;
 
-public class Whilw_loop_soru {
+public class WhileLoop_soru {
     public static void main(String[] args) {
 
         // 50 ve 100 arasindaki (sinirlar dahil) sayilari toplayin

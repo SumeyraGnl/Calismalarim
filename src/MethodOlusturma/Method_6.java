@@ -1,6 +1,6 @@
 package MethodOlusturma;
 
-public class Method_Overloading {
+public class Method_6 {
     public static void main(String[] args) {
 
         // Verilen 1'den buyuk bir tamsayi icin

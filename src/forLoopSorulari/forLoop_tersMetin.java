@@ -20,5 +20,7 @@ public class forLoop_tersMetin {
 
 
         }
+
+        metin=tersMetin;
     }
 }

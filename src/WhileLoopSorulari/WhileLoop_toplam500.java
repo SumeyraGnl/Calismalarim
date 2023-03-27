@@ -2,7 +2,7 @@ package WhileLoopSorulari;
 
 import java.util.Scanner;
 
-public class WhileLoop_1 {
+public class WhileLoop_toplam500 {
     public static void main(String[] args) {
 
         // kullanicidan toplanmak uzere sayilar alin
