@@ -3,6 +3,8 @@ package WhileLoopSorulari;
 import java.util.Scanner;
 
 public class WhileLoop_tamKare {
+
+    int sayi;
     public static void main(String[] args) {
         //Kullanicidan bir pozitif sayi isteyin, sayının tam kare olup olmadığını
         //bulunuz, tamkare ise true değilse false yazdırınız.
@@ -25,6 +27,8 @@ public class WhileLoop_tamKare {
             System.out.println("false");
         }
        */
+
+
 
 
         int flag = 0;

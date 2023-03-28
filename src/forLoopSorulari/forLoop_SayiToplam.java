@@ -2,7 +2,7 @@ package forLoopSorulari;
 
 import java.util.Scanner;
 
-public class Soru_forloop {
+public class forLoop_SayiToplam {
     public static void main(String[] args) {
 
         //Soru 3- Kullanicidan baslangic ve bitis degeri olarak pozitif sayilar alin,

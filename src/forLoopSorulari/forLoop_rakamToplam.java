@@ -1,8 +1,8 @@
-package ArraySorulari;
+package forLoopSorulari;
 
 import java.util.Scanner;
 
-public class soru_forLoop {
+public class forLoop_rakamToplam {
     public static void main(String[] args) {
          // Soru 7- Kullanicidan pozitif bir tamsayi alip, rakamlar toplamini yazdirin
 
