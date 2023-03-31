@@ -13,8 +13,6 @@ public class arrays_elementArtir {
         int arr1[]=ArraySayiArtirma();
         System.out.println(Arrays.toString(arr1));
 
-
-
     }
 
     public static int[] ArraySayiArtirma() {

@@ -16,14 +16,15 @@ public class Array_yeniArrayOlustur {
     public static int[] arrayOlustur() {
 
         Scanner scan=new Scanner(System.in);
-        System.out.println("Lutfen array'in uzunlugunu giriniz");
+        System.out.print("Lutfen array'in uzunlugunu giriniz: ");
         int arrayUzunlugu=scan.nextInt();
 
         int[] arr=new int[arrayUzunlugu];
 
         for (int i = 0; i < arrayUzunlugu; i++) {
 
-            System.out.println("Array'in "+(i+1)+". elemanini giriniz");
+            System.out.print("Array'in "+(i+1)+". elemanini giriniz: ");
+            //System.out.print("Array'a eklemek istediginiz sayiyi giriniz: ");
 
             arr[i] =scan.nextInt();
 

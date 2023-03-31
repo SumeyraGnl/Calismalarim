@@ -9,8 +9,8 @@ public class Array_elemanVarmi {
         int[] arr={2,4,7,2,6,9,2,4};
         String[] arr1 = {"d","k","L","M","k","d"};
 
-        elemanSayisiYazdir(arr,2);
-        harfSayisiYazdir(arr1,"d");
+        elemanSayisiYazdir(arr,5);
+        harfSayisiYazdir(arr1,"k");
 
     }
 
@@ -24,19 +24,29 @@ public class Array_elemanVarmi {
             }
 
         }
-        System.out.println(arananHarf + " harfi "+ sayac + " kez kullanilmistir");
+        if(sayac != 0){
+
+            System.out.println(arananHarf + " harfi "+ sayac + " kez kullanilmistir");
+        }else {
+            System.out.println("Aradiginiz eleman array'de bulunmamaktadir.");
+        }
+
     }
 
     public static void elemanSayisiYazdir(int[] arr, int arananSayi) {
 
-        int sayac=0;
+        int sayac = 0;
 
         for (int i = 0; i < arr.length; i++) {
-            if(arr[i]==arananSayi){
+            if (arr[i] == arananSayi) {
                 sayac++;
 
             }
         }
-        System.out.println(arananSayi + " sayisi "+ sayac + " kez kullanilmistir");
+        if (sayac != 0) {
+            System.out.println(arananSayi + " sayisi " + sayac + " kez kullanilmistir");
+        }else {
+            System.out.println("Aradiginiz eleman array'de bulunmamaktadir.");
+        }
     }
 }
