@@ -22,14 +22,10 @@ public class Array_elemanVarmi {
                 sayac ++;
 
             }
-
         }
-        if(sayac != 0){
 
-            System.out.println(arananHarf + " harfi "+ sayac + " kez kullanilmistir");
-        }else {
-            System.out.println("Aradiginiz eleman array'de bulunmamaktadir.");
-        }
+        System.out.println(arananHarf + " harfi "+ sayac + " kez kullanilmistir");
+
 
     }
 
@@ -43,10 +39,8 @@ public class Array_elemanVarmi {
 
             }
         }
-        if (sayac != 0) {
+
             System.out.println(arananSayi + " sayisi " + sayac + " kez kullanilmistir");
-        }else {
-            System.out.println("Aradiginiz eleman array'de bulunmamaktadir.");
-        }
+
     }
 }
