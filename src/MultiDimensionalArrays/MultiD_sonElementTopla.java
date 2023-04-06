@@ -17,9 +17,9 @@ public class MultiD_sonElementTopla {
         int toplam=0;
 
         for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[i].length; j++) {
+            for (int j = arr[i].length-1; j < arr[i].length; j++) {
 
-               toplam += arr[i][arr[i].length-1];
+               toplam += arr[i][j];
 
 
 
