@@ -7,21 +7,30 @@ import java.util.List;
 public class ArrayList_istenmeyenHarf {
     public static void main(String[] args) {
 
-        // ======TARIM KALDI TAMAMLA=======
+        // ======YARIM KALDI TAMAMLA=======
 
 
         //Verilen String bir listede istenmeyen harf iceren elementleri silip, kalan
         //kismini list olarak bize donduren bir method olusturun
 
-        List<String> list = new ArrayList<>(Arrays.asList("Ankara","İzmir","Bursa","Afyon"));
+        List<String> list = new ArrayList<>(Arrays.asList("portakal","elma","cilek","muz"));
 
-        istenmeyeniSil(list,"a");
+        System.out.println(istenmeyeniSil(list, "a"));
     }
 
     public static List<String> istenmeyeniSil(List<String> list, String istenmeyenHarf) {
 
+        List<String> yeniList= new ArrayList<>();
+
+        for (String each:list
+             ) {
+            if(!each.contains(istenmeyenHarf)){
+                yeniList.add(each);
+            }
+        }
 
 
-        return list;
+
+        return yeniList;
     }
 }

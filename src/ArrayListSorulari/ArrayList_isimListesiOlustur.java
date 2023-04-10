@@ -12,15 +12,14 @@ public class ArrayList_isimListesiOlustur {
         // liste olarak dondurecek bir method olusturun.
 
 
-
-        isimListele();
+        System.out.println(isimListele());
     }
 
     public static List<String> isimListele() {
         String isim="";
         List<String> isimler = new ArrayList<>();
 
-        while (isim.equalsIgnoreCase("Q")){
+        while (!isim.equalsIgnoreCase("Q")){
             System.out.println("Lutfen bir isim giriniz.\nisleminizi bitirmek icin Q'ya basiniz.");
 
             isim = scan.nextLine();

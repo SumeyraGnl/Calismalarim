@@ -45,3 +45,29 @@ public class ArrayList_fibonacciList {
         return list;
     }
 }
+/*
+
+public static List<Integer> FibonacciSayi(int sayi) {
+
+        List<Integer> yenilist = new ArrayList<>();
+
+        int a=0;
+        int b=1;
+
+        yenilist.add(a);
+        yenilist.add(b);
+
+        for (int i = 2; i <sayi; i++) {
+
+            int c = a+b;
+            if (c< sayi){
+                a=b;
+                b=c;
+                yenilist.add(c);
+            }
+
+            }
+
+
+        return yenilist;
+ */
