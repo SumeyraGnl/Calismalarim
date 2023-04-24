@@ -31,6 +31,7 @@ public class Ders {
 
         Ders obj=new Ders(3,"Rana",10  );
         System.out.println(obj);
+        System.out.println("deneme");
     }
 
     }
