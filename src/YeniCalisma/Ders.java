@@ -33,6 +33,7 @@ public class Ders {
         System.out.println(obj);
         System.out.println("deneme");
         System.out.println("deneme2");
+        System.out.println("deneme3");
     }
 
     }
